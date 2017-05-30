@@ -1,0 +1,38 @@
+html
+  head
+    // Google Tag Manager
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T25Q8RG');
+    // End Google Tag Manager
+    title Welcome
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    script(src="/javascripts/passionatoRedirect.js")
+  body
+    // Google Tag Manager (noscript)
+    noscript
+      iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-T25Q8RG', height='0', width='0', style='display:none;visibility:hidden')
+    // End Google Tag Manager (noscript)
+    nav.navbar.navbar-inverse
+      .container
+        .navbar-header.text-center
+          a.navbar-brand(href='#')
+        #navbar.collapse.navbar-collapse
+          //- ul.nav.navbar-nav
+          //-   li
+          //-     a(href='/') Home
+          //-   li
+          //-     a(href='/about') About
+          //-   li
+          //-     a(href='/contact') Contact
+        // /.nav-collapse
+    .container
+      h1.text-center Passionato
+        p
+        | Welcome to Passionato
+        p You can visit us now @ 
+          a(ref="http://www.passionatogems.com/") www.passionatogems.com
+    //script  window.setTimeout(function() { location.href = "https://www.facebook.com/thaich8/videos/1548947778484365/";}, 1000);
